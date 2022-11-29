@@ -1,0 +1,12 @@
+.navbar {
+    background: hsl(60 58% 84%/ 0.13);
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding: 4px 18px;
+}
+.navbar h1{
+    font: 700 2.3rem cursive;
+    color: hsl(60 58% 84%);
+    letter-spacing: 1.3px;
+}

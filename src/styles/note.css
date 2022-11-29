@@ -1,0 +1,26 @@
+.note {
+    border-radius: 10px;
+    align-self: center;
+    padding: 9px;
+    box-shadow: 0 10px 20px hsl(0 0% 0% / .42);
+    max-width: 260px;
+    flex-wrap: wrap;
+    background-color: hsl(0 100% 100% / .12);
+
+}
+
+.note h1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: hsl(0 100% 100% / .88);
+}
+
+.note p {
+    max-width: 260px;
+    font: 400 1.2rem system-ui;
+    white-space: pre-wrap;
+    white-space: -pre-wrap;
+    word-break: break-all;
+    color: hsl(0 100% 100% / .68);
+}

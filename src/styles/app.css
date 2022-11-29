@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color:#1d1d1c;
+}
+
+.noteWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.7rem;
+    flex: 1;
+    padding: 20px;
+}
